@@ -13,5 +13,5 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::resource('tests', 'TestsController');
-URL::forceScheme('https');
+Route::resource ( 'tests', 'TestsController' );
+URL::forceScheme ( 'https' );
